@@ -12,6 +12,8 @@
                     <th class="table-header">Sobrenome</th>
                     <th class="table-header">CRM</th>
                     <th class="table-header">Email</th>
+                    <th class="table-header">Especialidade</th>
+                    <th class="table-header">Telefone</th>
                 </tr>
             </thead>
 
@@ -23,6 +25,8 @@
                         <td class="table-cel"> {{ medico.sobrenome }} </td>
                         <td class="table-cel"> {{ medico.crm }} </td>
                         <td class="table-cel"> {{ medico.email }} </td>
+                        <td class="table-cel"> {{ medico.especialidade_id }} </td>
+                        <td class="table-cel"> {{ medico.telefone }} </td>
                     </tr>
                 {% endfor %}
             </tbody>
